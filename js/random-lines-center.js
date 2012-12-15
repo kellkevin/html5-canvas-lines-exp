@@ -1,7 +1,7 @@
 /*
-	random-lines-init.js
+	random-lines-center.js
 	Kevin Kelly
-	The first of the exper. in its' original form.
+	Doing the lines, but centering here. 
 */
 
 
@@ -10,11 +10,11 @@
 		// COunter
 		var numCount = 0;	
 		// Last Coord
-		var xLastCoord = 0, yLastCoord =0;
+		
 		var strStatus ="";
 		function drawRandomLine(numWidth,numHeight)
 		{
-			
+			var xLastCoord = 0, yLastCoord =0;	
 			// get random number
 			numCount ++;
 			strStatus += "\n Move " + numCount +" Start /===================";
