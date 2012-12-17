@@ -34,7 +34,7 @@
 
 			with(context)
 			{
-				clearRect(xDraw,yDraw,10,10);
+				// clearRect(xDraw,yDraw,10,10);
 				beginPath();
 				moveTo(xLastCoord,yLastCoord);
 				// get line to draw
